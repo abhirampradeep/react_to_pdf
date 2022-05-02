@@ -5,37 +5,43 @@ class ShareHistory extends React.Component {
     return (
       <table className="table">
         <thead>
-          <tr>
-            <th>oombiko</th>
-            <th>Lastname</th>
-            <th>Email</th>
-            <th>Image</th>
+          <tr className="border-r-4 border-l-4 border--4">
+            <th>Member ID</th>
+            <th>Member Name</th>
+            <th>Date</th>
+            <th>Amount</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>John</td>
+          <tr className="border-r-4 border-l-4">
+            <td>A178213</td>
             <td>Doe</td>
-            <td>john@example.com</td>
-            <td>
-                <img src="https://i.pravatar.cc/50?img=1" alt="thumb" />
-            </td>
+            <td>12/09/20</td>
+            <td>500</td>
           </tr>
-          <tr>
-            <td>Mary</td>
-            <td>Moe</td>
-            <td>mary@example.com</td>
-            <td>
-                <img src="https://i.pravatar.cc/50?img=2" alt="thumb" />
-            </td>
+          <tr className="border-r-4 border-l-4">
+            <td>A178213</td>
+            <td>Doe</td>
+            <td>12/09/20</td>
+            <td>500</td>
           </tr>
-          <tr>
-            <td>July</td>
-            <td>Dooley</td>
-            <td>july@example.com</td>
-            <td>
-                <img src="https://i.pravatar.cc/50?img=3" alt="thumb" />
-            </td>
+          <tr className="border-r-4 border-l-4">
+            <td>A178213</td>
+            <td>Doe</td>
+            <td>12/09/20</td>
+            <td>500</td>
+          </tr>
+          <tr className="border-r-4 border-l-4">
+            <td>A178213</td>
+            <td>Doe</td>
+            <td>12/09/20</td>
+            <td>500</td>
+          </tr>
+          <tr className="border-r-4 border-l-4">
+            <td>A178213</td>
+            <td>Doe</td>
+            <td>12/09/20</td>
+            <td>500</td>
           </tr>
         </tbody>
       </table>
