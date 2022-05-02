@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactToPrint from 'react-to-print';
+import Accounthead from './components/accounting/accounthead';
 import Daybook from './components/accounting/daybook';
 import Generallegder from './components/accounting/generalledger';
 import Dividendpayable from './components/dividend/dividendpayable';
@@ -14,7 +15,7 @@ class ExportPdfComponent extends React.Component {
 
            {/* <h1 className=" text-center">Transaction History</h1>  */}
 
-          <Generallegder ref={(response) => (this.componentRef = response)} />
+          <ShareHistory ref={(response) => (this.componentRef = response)} />
           
           <ReactToPrint
             content={() => this.componentRef}
