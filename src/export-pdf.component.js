@@ -17,7 +17,7 @@ class ExportPdfComponent extends React.Component {
 
            {/* <h1 className=" text-center">Transaction History</h1>  */}
 
-          <Statementaccount ref={(response) => (this.componentRef = response)} />
+          <Daybook ref={(response) => (this.componentRef = response)} />
           
           <ReactToPrint
             content={() => this.componentRef}

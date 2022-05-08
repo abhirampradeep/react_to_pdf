@@ -4,6 +4,8 @@ class Daybook extends React.Component {
     render() {
         return (
             <div>
+                <table className="w-full">
+                <thead>
                 <h1 className="text-left p-3 ml-2 text-lg">
                     Mananthavady Govt Employees Co-op Society Ltd W 288
                 </h1>
@@ -30,7 +32,8 @@ class Daybook extends React.Component {
                         <h3 className="p-3 mr-2">page #1</h3>
                     </div>
                 </div>
-
+                </thead>
+                <tbody>
                 <table className="border-4 w-full p-1 table-auto ">
                     <tr>
                         <th className="col-span-4 text-2xl" colSpan="7">Receipt</th>
@@ -529,8 +532,8 @@ class Daybook extends React.Component {
 
 
                 </table>
-
-
+                </tbody>
+                </table>
 
 
 
